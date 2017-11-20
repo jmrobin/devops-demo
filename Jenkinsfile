@@ -17,6 +17,6 @@ node {
     stage 'sonar'
     sh 'mvn sonar:sonar'
 
-    # stage 'deploy'
-    # sh 'mvn deploy'
+    stage 'deploy'
+    sh 'mvn deploy'
 }
